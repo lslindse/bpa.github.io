@@ -1,0 +1,96 @@
+.quote{
+    width: 50%;
+    float: left;
+}
+.homeimg{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.homeimg img{
+    width: 70%;
+    border-radius: 10px;
+}
+.learnbtn{
+    background-color: #6fa8dc;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.learnbtn:hover{
+    background-color: #4a86c5;
+}
+.home{
+    margin: 50px;
+}
+.quote h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+header{
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+.logo{
+    width: 70px;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+nav a{
+    margin:0 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+nav a:hover{
+    color: #6fa8dc;
+}
+.comment{
+border:1px solid #ccc;
+padding:10px;
+margin-bottom:15px;
+width: 30%;
+}
+.appt{
+   padding: 100px; 
+   margin-top: 100px;
+}
+section.left {
+    float: left;
+    width: 33.33%;
+}
+section.middle {
+    float: left;
+    width: 33.33%;
+}
+section.right {
+    float: left;
+    width: 33.33%;
+}
+.info h1{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+.artic-title{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
