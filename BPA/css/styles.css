@@ -28,7 +28,7 @@
 .quote h1{
     font-size: 40px;
     margin-bottom: 30px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 header{
     border-bottom: 1px solid black;
@@ -59,4 +59,68 @@ nav a:hover{
 border:1px solid #ccc;
 padding:10px;
 margin-bottom:15px;
+width: 30%;
+}
+.appt{
+   padding: 100px; 
+   margin-top: 100px;
+}
+section.left {
+    float: left;
+    width: 33.33%;
+}
+section.middle {
+    float: left;
+    width: 33.33%;
+}
+section.right {
+    float: left;
+    width: 33.33%;
+}
+.info h1{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+.artic-title{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.leftcolumn {
+    float: left;
+    width: 50%;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.artic-img{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.artic{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.row:after{
+    display: table;
+    clear: both;
+}
+.testim{
+    border:1px solid #ccc;
+padding:10px;
+margin-bottom:15px;
+width: 100%;
 }
